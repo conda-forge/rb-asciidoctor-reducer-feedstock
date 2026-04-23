@@ -1,5 +1,5 @@
 {% set name = "asciidoctor-reducer" %}
-{% set version = "1.1.0" %}
+{% set version = "1.1.2" %}
 
 package:
   name: rb-{{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   - url: https://rubygems.org/downloads/{{ name }}-{{ version }}.gem
-    sha256: 51df189807d820065060ff63873c577ab18388a21d4fc80ef7f98070600d5375
+    sha256: 8d6d3a7c3a54916cc03c016447ee7413170fe7cf406c390efbae2f3d71fa1f34
   - path: asciidoctor-reducer.bat
 
 build:
